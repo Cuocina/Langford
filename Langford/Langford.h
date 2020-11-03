@@ -17,5 +17,8 @@
  * Cumple con todas las validaciones
  *
  */
-bool EsSecuenciaLangford(int secuenciaNumeros[], int n);
+namespace Langford {
 
+	bool EsSecuenciaLangford(int secuenciaNumeros[], int n);
+
+}

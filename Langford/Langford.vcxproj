@@ -142,7 +142,6 @@
     <ClCompile Include="Galgo01.cpp" />
     <ClCompile Include="Langford.cpp" />
     <ClCompile Include="PruebasUnitariasLangford.cpp" />
-    <ClCompile Include="PruebasUnitariasLangfordcpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Langford.h" />

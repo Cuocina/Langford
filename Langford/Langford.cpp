@@ -49,7 +49,7 @@ bool ExisteSecuenciaLangford(int n) {
 // Cual seria la forma mas adecuada para ahorrarse esa busqueda duplicada?
 // Clara y simple:  O((N*N) + (N*N))== O(2*(N*N))
 // Optimizada prematuramente: O(N)
-bool EsSecuenciaLangford(int secuenciaNumeros[], int n) {
+bool Langford::EsSecuenciaLangford(int secuenciaNumeros[], int n) {
 	bool esSecuenciaLangford = false;
 	if (ExisteSecuenciaLangford(n)) {
 		esSecuenciaLangford = ElementosLangfordValidos(secuenciaNumeros, n) && PatronLangfordValido(secuenciaNumeros, n);
